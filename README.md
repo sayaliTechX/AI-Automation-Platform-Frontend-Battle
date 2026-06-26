@@ -103,6 +103,17 @@ AI-Automation-Platform-Frontend-Battle/
 
 ```
 
+## ScreenShots
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/1cbe966b-d85b-4c64-9b9a-aa451156a32a" />
+
+<img width="1552" height="875" alt="image" src="https://github.com/user-attachments/assets/b4b8414e-c575-4265-8fd3-c3780880aae7" />
+
+<img width="1289" height="911" alt="image" src="https://github.com/user-attachments/assets/94870360-431f-44eb-8048-5748e851a27b" />
+
+<img width="1671" height="887" alt="image" src="https://github.com/user-attachments/assets/3c5519db-6aa4-441d-ad99-0178bb984305" />
+
+<img width="1548" height="897" alt="image" src="https://github.com/user-attachments/assets/daf14f1e-e104-4d6c-99e4-230d9f761931" />
+
 ---
 
 ## 🌐 Live Demo
