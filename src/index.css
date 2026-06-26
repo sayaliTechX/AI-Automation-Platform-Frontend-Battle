@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-oceanic text-arctic selection:bg-mint/30 selection:text-arctic;
+  }
+
+  /* Custom visible focus outlines for accessibility */
+  :focus-visible {
+    @apply outline-none ring-2 ring-forsythia ring-offset-2 ring-offset-oceanic;
+  }
+}
+
+/* Custom Background Grid Utility */
+.grid-bg-overlay {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(241, 246, 252, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(241, 246, 252, 0.03) 1px, transparent 1px);
+}
+
+/* Radial Glows */
+.radial-blur-glow {
+  background: radial-gradient(circle, rgba(17, 76, 90, 0.5) 0%, rgba(23, 43, 54, 0) 70%);
+}
+
+.radial-saffron-glow {
+  background: radial-gradient(circle, rgba(255, 153, 50, 0.15) 0%, rgba(23, 43, 54, 0) 70%);
+}
+
+/* Animated gradient background */
+.animated-gradient-bg {
+  background: linear-gradient(-45deg, #172B36, #114C5A, #172B36, #114c5a/80);
+  background-size: 400% 400%;
+  animation: gradientX 12s ease infinite;
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #172B36;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #114C5A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D9E8E2;
+}
+
+/* Gradient borders */
+.gradient-border {
+  position: relative;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(241, 246, 252, 0.1) 0%, rgba(17, 76, 90, 0.5) 50%, rgba(255, 200, 1, 0.2) 100%);
+  pointer-events: none;
+}
+
+.gradient-border-active::before {
+  background: linear-gradient(135deg, #FFC801 0%, #FF9932 50%, #114C5A 100%);
+}
+
+/* Bento card hover lifting shadow glow */
+.bento-glow-hover {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-glow-hover:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 0 25px 2px rgba(255, 200, 1, 0.15);
+}
+
+/* Glassmorphism utility */
+.glassmorphism {
+  background: rgba(23, 43, 54, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
