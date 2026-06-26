@@ -108,10 +108,8 @@ AI-Automation-Platform-Frontend-Battle/
 ## 🌐 Live Demo
 
 **Deployment:** 
-
+https://ai-automation-platform-frontend-battle-di8i1805d-say-nova.vercel.app/
 ---
-
-## 📸 Screenshots
 
 
 ---
