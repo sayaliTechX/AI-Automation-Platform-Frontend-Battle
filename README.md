@@ -61,15 +61,46 @@ npm run build
 ## 📂 Project Structure
 
 ```text
-src/
-├── assets/
-├── components/
-├── data/
-├── hooks/
-├── pages/
-├── utils/
-├── App.jsx
-└── main.jsx
+```text
+AI-Automation-Platform-Frontend-Battle/
+│
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Features/
+│   │   ├── Pricing/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── DashboardIllustration.jsx
+│   │   ├── Testimonials.jsx
+│   │   ├── CTA.jsx
+│   │   ├── Footer.jsx
+│   │   └── Icons.jsx
+│   │
+│   ├── data/
+│   │   ├── features.js
+│   │   ├── pricing.js
+│   │   └── testimonials.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── README.md
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
+```
+
 ```
 
 ---
