@@ -101,7 +101,7 @@ AI-Automation-Platform-Frontend-Battle/
 └── vite.config.js
 ```
 
-```
+
 
 ## ScreenShots
 <img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/1cbe966b-d85b-4c64-9b9a-aa451156a32a" />
@@ -127,7 +127,8 @@ https://ai-automation-platform-frontend-battle-di8i1805d-say-nova.vercel.app/
 
 ## 📌 Repository
 
-**GitHub:** https://github.com/sayaliTechX/AI-Automation-Platform-Frontend-Battle
+**GitHub:**
+https://github.com/sayaliTechX/AI-Automation-Platform-Frontend-Battle
 
 ---
 
